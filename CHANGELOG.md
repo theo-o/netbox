@@ -175,7 +175,7 @@ an additional `CACHE_DATABASE` setting has been added with a default value of 1 
 highly recommended to keep the webhook and cache databases seperate. Using the same database number for both may result
 in webhook processing data being lost during cache flushing events.
 
-### API Support for Specifying Related Objects by Attributes([#3077](https://github.com/netbox-community/netbox/issues/3077))
+### API Support for Specifying Related Objects by Attributes ([#3077](https://github.com/netbox-community/netbox/issues/3077))
 
 Previously, specifying a related object in an API request required knowing the primary key (integer ID) of that object.
 For example, when creating a new device, its rack would be specified as an integer:
@@ -224,7 +224,7 @@ functionality provided by the front end UI.
 
 ### CORS_ORIGIN_WHITELIST Requires URI Scheme
 
-If you have the `CORS_ORIGIN_WHITELIST` configuration parameter defined, note that each origin must now incldue a URI
+If you have the `CORS_ORIGIN_WHITELIST` configuration parameter defined, note that each origin must now include a URI
 scheme. This change was introuced in django-cors-headers 3.0.
 
 ## Enhancements
@@ -351,7 +351,7 @@ v2.5.10 (2019-04-08)
 * [#3041](https://github.com/netbox-community/netbox/issues/3041) - Fix form widget for bulk cable label update
 * [#3044](https://github.com/netbox-community/netbox/issues/3044) - Ignore site/rack fields when connecting a new cable via device search
 * [#3046](https://github.com/netbox-community/netbox/issues/3046) - Fix exception at reports API endpoint
-* [#3047](https://github.com/netbox-community/netbox/issues/3047) - Fix exception when writing mac address for an interface via API
+* [#3047](https://github.com/netbox-community/netbox/issues/3047) - Fix exception when writing the MAC address for an interface via API
 
 ---
 
